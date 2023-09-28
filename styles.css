@@ -1,0 +1,17 @@
+#products{
+    border: 1px solid brown;
+    border-collapse: collapse;
+    width: 50%;
+}
+#products th,td{
+    padding: 10px;
+    border: 1px solid black;
+    border-style: dashed;
+}
+#products th{
+    color:aliceblue;
+    border-right-color: rgb(220, 144, 13);
+}
+#products tr:nth-child(odd){
+    background-color: rgb(96, 180, 179);
+}
